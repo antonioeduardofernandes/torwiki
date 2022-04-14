@@ -10,13 +10,13 @@
 
 	//import Components
 	import Topbar from "./components/Topbar/Topbar.svelte";
-	import CharacterCard from "./components/CharacterCard.svelte";
+	import CharacterCard from "./components/CharacterCard/CharacterCard.svelte";
 </script>
 
 <main>
 	<Topbar />
 	<div class="content">
-		<!-- <CharacterCard /> -->
+		<CharacterCard />
 	</div>
 </main>
 

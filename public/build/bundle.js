@@ -5949,9 +5949,9 @@ var app = (function () {
     			attr_dev(path, "d", "M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z");
     			add_location(path, file$7, 15, 13, 377);
     			attr_dev(svg, "viewBox", "0 0 24 24");
-    			attr_dev(svg, "class", "svelte-18wy8ze");
+    			attr_dev(svg, "class", "svelte-1ohlaib");
     			add_location(svg, file$7, 14, 8, 338);
-    			attr_dev(div0, "class", "button close_button svelte-18wy8ze");
+    			attr_dev(div0, "class", "button close_button svelte-1ohlaib");
     			add_location(div0, file$7, 13, 4, 274);
     			add_location(div1, file$7, 21, 8, 622);
     			add_location(div2, file$7, 23, 12, 685);
@@ -5959,11 +5959,11 @@ var app = (function () {
     			add_location(div4, file$7, 25, 12, 752);
     			add_location(div5, file$7, 26, 12, 784);
     			add_location(div6, file$7, 27, 12, 818);
-    			attr_dev(div7, "class", "sublinks svelte-18wy8ze");
+    			attr_dev(div7, "class", "sublinks svelte-1ohlaib");
     			add_location(div7, file$7, 22, 8, 649);
-    			attr_dev(div8, "class", "links svelte-18wy8ze");
+    			attr_dev(div8, "class", "links svelte-1ohlaib");
     			add_location(div8, file$7, 20, 4, 593);
-    			attr_dev(div9, "class", "overlay_menu svelte-18wy8ze");
+    			attr_dev(div9, "class", "overlay_menu svelte-1ohlaib");
     			add_location(div9, file$7, 12, 0, 242);
     		},
     		l: function claim(nodes) {
@@ -6055,105 +6055,96 @@ var app = (function () {
     const file$6 = "src\\components\\Topbar\\Topbar.svelte";
 
     function create_fragment$6(ctx) {
-    	let overlaymenu;
-    	let t0;
     	let div7;
     	let div2;
     	let div0;
     	let svg0;
     	let path0;
-    	let t1;
+    	let t0;
     	let div1;
     	let svg1;
     	let path1;
-    	let t2;
+    	let t1;
     	let div6;
     	let div3;
-    	let t3;
+    	let t2;
     	let div4;
-    	let t4;
+    	let t3;
     	let div5;
-    	let current;
     	let mounted;
     	let dispose;
-    	overlaymenu = new OverlayMenu({ $$inline: true });
 
     	const block = {
     		c: function create() {
-    			create_component(overlaymenu.$$.fragment);
-    			t0 = space();
     			div7 = element("div");
     			div2 = element("div");
     			div0 = element("div");
     			svg0 = svg_element("svg");
     			path0 = svg_element("path");
-    			t1 = space();
+    			t0 = space();
     			div1 = element("div");
     			svg1 = svg_element("svg");
     			path1 = svg_element("path");
-    			t2 = space();
+    			t1 = space();
     			div6 = element("div");
     			div3 = element("div");
-    			t3 = space();
+    			t2 = space();
     			div4 = element("div");
-    			t4 = space();
+    			t3 = space();
     			div5 = element("div");
     			attr_dev(path0, "fill-rule", "evenodd");
     			attr_dev(path0, "clip-rule", "evenodd");
     			attr_dev(path0, "d", "M15 0C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15 8.284 0 15-6.716 15-15 0-8.284-6.716-15-15-15zm-3.427 7.495l-.571.52V15.5l-.002.001V18l-.95-1.899-1.048.663v6.773L12.275 25l5.727-1.463v-4.968L16.716 17.5V7.852L14.466 5h-1.928v2.495h-.965z");
     			attr_dev(path0, "fill", "#ffffff");
-    			add_location(path0, file$6, 23, 17, 618);
+    			add_location(path0, file$6, 21, 17, 599);
     			attr_dev(svg0, "viewBox", "0 0 30 30");
     			attr_dev(svg0, "fill", "none");
-    			add_location(svg0, file$6, 22, 12, 563);
+    			add_location(svg0, file$6, 20, 12, 544);
     			attr_dev(div0, "class", "button mini svelte-6pfyha");
-    			add_location(div0, file$6, 21, 8, 524);
+    			add_location(div0, file$6, 19, 8, 505);
     			attr_dev(path1, "d", "M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z");
-    			add_location(path1, file$6, 38, 17, 1319);
+    			add_location(path1, file$6, 36, 17, 1300);
     			attr_dev(svg1, "viewBox", "0 0 24 24");
     			attr_dev(svg1, "class", "return_icon svelte-6pfyha");
     			attr_dev(svg1, "fill", "#ffffff");
     			set_style(svg1, "transform", "rotate(180deg)");
-    			add_location(svg1, file$6, 33, 12, 1138);
+    			add_location(svg1, file$6, 31, 12, 1119);
     			attr_dev(div1, "class", "button svelte-6pfyha");
-    			add_location(div1, file$6, 32, 8, 1104);
+    			add_location(div1, file$6, 30, 8, 1085);
     			attr_dev(div2, "class", "left_content svelte-6pfyha");
-    			add_location(div2, file$6, 20, 4, 488);
+    			add_location(div2, file$6, 18, 4, 469);
     			attr_dev(div3, "class", "dot svelte-6pfyha");
-    			add_location(div3, file$6, 46, 8, 1598);
+    			add_location(div3, file$6, 44, 8, 1579);
     			attr_dev(div4, "class", "dot svelte-6pfyha");
-    			add_location(div4, file$6, 47, 8, 1627);
+    			add_location(div4, file$6, 45, 8, 1608);
     			attr_dev(div5, "class", "dot svelte-6pfyha");
-    			add_location(div5, file$6, 48, 8, 1656);
+    			add_location(div5, file$6, 46, 8, 1637);
     			attr_dev(div6, "class", "button menu_button svelte-6pfyha");
-    			add_location(div6, file$6, 45, 4, 1536);
+    			add_location(div6, file$6, 43, 4, 1517);
     			attr_dev(div7, "id", "topbar");
     			attr_dev(div7, "class", "svelte-6pfyha");
-    			add_location(div7, file$6, 18, 0, 438);
+    			add_location(div7, file$6, 16, 0, 419);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			mount_component(overlaymenu, target, anchor);
-    			insert_dev(target, t0, anchor);
     			insert_dev(target, div7, anchor);
     			append_dev(div7, div2);
     			append_dev(div2, div0);
     			append_dev(div0, svg0);
     			append_dev(svg0, path0);
-    			append_dev(div2, t1);
+    			append_dev(div2, t0);
     			append_dev(div2, div1);
     			append_dev(div1, svg1);
     			append_dev(svg1, path1);
-    			append_dev(div7, t2);
+    			append_dev(div7, t1);
     			append_dev(div7, div6);
     			append_dev(div6, div3);
-    			append_dev(div6, t3);
+    			append_dev(div6, t2);
     			append_dev(div6, div4);
-    			append_dev(div6, t4);
+    			append_dev(div6, t3);
     			append_dev(div6, div5);
-    			current = true;
 
     			if (!mounted) {
     				dispose = listen_dev(div6, "click", /*openMenu*/ ctx[0], false, false, false);
@@ -6161,18 +6152,9 @@ var app = (function () {
     			}
     		},
     		p: noop,
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(overlaymenu.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(overlaymenu.$$.fragment, local);
-    			current = false;
-    		},
+    		i: noop,
+    		o: noop,
     		d: function destroy(detaching) {
-    			destroy_component(overlaymenu, detaching);
-    			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(div7);
     			mounted = false;
     			dispose();
@@ -6775,23 +6757,28 @@ var app = (function () {
     function create_fragment(ctx) {
     	let main;
     	let topbar;
-    	let t;
+    	let t0;
+    	let overlaymenu;
+    	let t1;
     	let div;
     	let charactercard;
     	let current;
     	topbar = new Topbar({ $$inline: true });
+    	overlaymenu = new OverlayMenu({ $$inline: true });
     	charactercard = new CharacterCard({ $$inline: true });
 
     	const block = {
     		c: function create() {
     			main = element("main");
     			create_component(topbar.$$.fragment);
-    			t = space();
+    			t0 = space();
+    			create_component(overlaymenu.$$.fragment);
+    			t1 = space();
     			div = element("div");
     			create_component(charactercard.$$.fragment);
     			attr_dev(div, "class", "content");
-    			add_location(div, file, 17, 1, 498);
-    			add_location(main, file, 15, 0, 476);
+    			add_location(div, file, 19, 1, 582);
+    			add_location(main, file, 16, 0, 543);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -6799,7 +6786,9 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, main, anchor);
     			mount_component(topbar, main, null);
-    			append_dev(main, t);
+    			append_dev(main, t0);
+    			mount_component(overlaymenu, main, null);
+    			append_dev(main, t1);
     			append_dev(main, div);
     			mount_component(charactercard, div, null);
     			current = true;
@@ -6808,17 +6797,20 @@ var app = (function () {
     		i: function intro(local) {
     			if (current) return;
     			transition_in(topbar.$$.fragment, local);
+    			transition_in(overlaymenu.$$.fragment, local);
     			transition_in(charactercard.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(topbar.$$.fragment, local);
+    			transition_out(overlaymenu.$$.fragment, local);
     			transition_out(charactercard.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(main);
     			destroy_component(topbar);
+    			destroy_component(overlaymenu);
     			destroy_component(charactercard);
     		}
     	};
@@ -6843,7 +6835,7 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<App> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ Topbar, CharacterCard });
+    	$$self.$capture_state = () => ({ Topbar, CharacterCard, OverlayMenu });
     	return [];
     }
 

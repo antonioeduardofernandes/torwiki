@@ -11,10 +11,12 @@
 	//import Components
 	import Topbar from "./components/Topbar/Topbar.svelte";
 	import CharacterCard from "./components/Cards/CharacterCard.svelte";
+	import OverlayMenu from "./components/Topbar/OverlayMenu.svelte"
 </script>
 
 <main>
 	<Topbar />
+	<OverlayMenu/>
 	<div class="content">
 		<CharacterCard />
 	</div>

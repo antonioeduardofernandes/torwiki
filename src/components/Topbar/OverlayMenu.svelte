@@ -31,6 +31,18 @@
 </div>
 
 <style>
+        .overlay_menu {
+        position: fixed;
+        width: 100vw;
+        height: 100%;
+        background-color: white;
+        z-index: 99;
+        display: flex;
+        flex-flow: column;
+        padding: 1rem;
+        left: -200%;
+    }
+
     .button {
         --button-size: 2.3rem;
         width: var(--button-size);
@@ -45,17 +57,6 @@
         z-index: 2;
     }
 
-    .overlay_menu {
-        position: absolute;
-        width: 100vw;
-        height: 100%;
-        background-color: white;
-        z-index: 99;
-        display: flex;
-        flex-flow: column;
-        padding: 1rem;
-        left: -200%;
-    }
 
     .close_button {
         border-color: rgba(0, 0, 0, 0.6);

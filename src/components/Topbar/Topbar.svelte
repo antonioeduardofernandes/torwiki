@@ -14,8 +14,6 @@
     };
 </script>
 
-<OverlayMenu />
-
 <div id="topbar">
     <!-- Left Content -->
     <div class="left_content">

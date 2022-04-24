@@ -10,7 +10,7 @@
 
 	//import Components
 	import Topbar from "./components/Topbar/Topbar.svelte";
-	import CharacterCard from "./components/CharacterCard/CharacterCard.svelte";
+	import CharacterCard from "./components/Cards/CharacterCard.svelte";
 </script>
 
 <main>

@@ -6670,6 +6670,9 @@ var app = (function () {
     	let descriptions;
     	let t1;
     	let gallery;
+    	let t2;
+    	let img;
+    	let img_src_value;
     	let current;
     	topcontent = new TopContent({ $$inline: true });
     	descriptions = new Descriptions({ $$inline: true });
@@ -6683,7 +6686,13 @@ var app = (function () {
     			create_component(descriptions.$$.fragment);
     			t1 = space();
     			create_component(gallery.$$.fragment);
-    			attr_dev(div, "class", "container svelte-1j26nyp");
+    			t2 = space();
+    			img = element("img");
+    			attr_dev(img, "class", "bg_rocks svelte-ii7d8n");
+    			if (!src_url_equal(img.src, img_src_value = "assets/rocks_bg.png")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", "");
+    			add_location(img, file$1, 10, 4, 262);
+    			attr_dev(div, "class", "container svelte-ii7d8n");
     			add_location(div, file$1, 6, 0, 174);
     		},
     		l: function claim(nodes) {
@@ -6696,6 +6705,8 @@ var app = (function () {
     			mount_component(descriptions, div, null);
     			append_dev(div, t1);
     			mount_component(gallery, div, null);
+    			append_dev(div, t2);
+    			append_dev(div, img);
     			current = true;
     		},
     		p: noop,
